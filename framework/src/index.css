@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+.active{
+  @apply bg-mainColor rounded-md duration-500
+}
+
+.center-div{
+  @apply flex justify-center items-center
+}
